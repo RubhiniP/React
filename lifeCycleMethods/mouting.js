@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import MountingB from "./moutingB";
 
 class MountingA extends Component{
 
@@ -25,8 +26,14 @@ class MountingA extends Component{
     //render
     render(){
         console.log("render of mountingA");
+        return(
+            <div>
+                <h1>LIFE CYCLE METHODS - MOUNTING</h1>
+                <MountingB />
+            </div>
+            
+        )
         
-        return <h1>LIFE CYCLE METHODS - MOUNTING</h1>;
     }
 }
 

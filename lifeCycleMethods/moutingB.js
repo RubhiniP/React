@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class MountingB extends Component{
+class UpdatingB extends Component{
 
     //constructor
     constructor(props){
@@ -25,8 +25,8 @@ class MountingB extends Component{
     //render
     render(){
         console.log("render of mountingB");
-        return <h1>LIFE CYCLE METHODS - MOUNTING B</h1>;
+        return <h1>LIFE CYCLE METHODS</h1>;
     }
 }
 
-export default MountingB;
+export default UpdatingB;
